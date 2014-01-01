@@ -1,4 +1,4 @@
-//This file was generated from (Academic) UPPAAL 4.1.16 (5300), August 2013
+//This file was generated from (Academic) UPPAAL 4.0.13 (rev. 4577), September 2010
 
 /*
 
