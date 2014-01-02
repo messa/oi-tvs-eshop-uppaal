@@ -3,6 +3,11 @@
 /*
 
 */
+A[] obchod1.Objednavka_uzavrena_uspesne imply typ_platby != typ_platby_nezvolen
+
+/*
+
+*/
 E<> zakaznik1.Platebni_prikaz_proveden and obchod1.Objednavka_uzavrena_uspesne
 
 /*
