@@ -34,6 +34,26 @@ E<> zakaznik1.Platebni_prikaz_neproveden and obchod1.Objednavka_uzavrena_uspesne
 /*
 
 */
+A[] zakaznik1.Zbozi_v_kosiku imply cas_update_kosiku < 1001
+
+/*
+
+*/
+A[] zakaznik1.Nastaven_zpusob_platby imply cas_update_kosiku < 1001
+
+/*
+
+*/
+A[] zakaznik1.Nastaven_zpusob_doruceni imply cas_update_kosiku < 1001
+
+/*
+
+*/
+A[] zakaznik1.Nastavena_dodaci_adresa imply cas_update_kosiku < 1001
+
+/*
+
+*/
 A[] not deadlock
 
 /*
