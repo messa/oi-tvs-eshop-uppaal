@@ -3,6 +3,16 @@
 /*
 
 */
+E<> zakaznik1.Platebni_prikaz_proveden and obchod1.Objednavka_uzavrena_uspesne
+
+/*
+
+*/
+E<> zakaznik1.Platebni_prikaz_proveden and (not obchod1.Objednavka_uzavrena_uspesne)
+
+/*
+
+*/
 E<> zakaznik1.Platebni_prikaz_proveden_spatne and obchod1.Objednavka_uzavrena_uspesne
 
 /*
