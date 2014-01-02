@@ -16,6 +16,16 @@ E<> zakaznik1.Platebni_prikaz_proveden and (not obchod1.Objednavka_uzavrena_uspe
 E<> zakaznik1.Platebni_prikaz_proveden_spatne and obchod1.Objednavka_uzavrena_uspesne
 
 /*
+
+*/
+A[] not ((zakaznik1.Vybrana_dobirka or zakaznik1.Objednavka_prijata_dobirka) and (obchod1.Platba_prijata or obchod1.Platba_neprijata))
+
+/*
+
+*/
+A[] not (zakaznik1.Objednavka_odeslana and (obchod1.Objednavka_uzavrena_uspesne or obchod1.Objednavka_uzavrena_neuspesne))
+
+/*
 Kontrola, jestli lze uspesne uzavrit objednavku, pokud nebyl proveden platebni prikaz
 Ocekava se FALSE
 */
