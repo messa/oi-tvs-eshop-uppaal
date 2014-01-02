@@ -3,6 +3,41 @@
 /*
 
 */
+E<> zakaznik1.Zaregistrovan
+
+/*
+
+*/
+E<> zakaznik1.Prihlasen
+
+/*
+
+*/
+E<> zakaznik1.Vybrana_dobirka
+
+/*
+
+*/
+E<> zakaznik1.Objednavka_prijata_dobirka
+
+/*
+
+*/
+E<> zakaznik1.Dobirka_odmitnuta
+
+/*
+
+*/
+E<> zakaznik1.Platebni_prikaz_proveden
+
+/*
+
+*/
+E<> zakaznik1.Platebni_prikaz_proveden_spatne
+
+/*
+
+*/
 zakaznik1.Platebni_brana_zrusena --> obchod1.Objednavka_uzavrena_neuspesne
 
 /*
