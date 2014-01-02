@@ -3,6 +3,11 @@
 /*
 
 */
+zakaznik1.Platebni_brana_zrusena --> obchod1.Objednavka_uzavrena_neuspesne
+
+/*
+
+*/
 A[] obchod1.Objednavka_uzavrena_uspesne imply typ_platby != typ_platby_nezvolen
 
 /*
